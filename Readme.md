@@ -22,8 +22,11 @@ My Mac OS Config
 ## 페이지 목차
 
 [🛒 1. App Store에서 설치한 앱들](#app-store에서-설치하는-앱들)
+
 [💻 2. 사용하는 툴들](#사용하는-툴들)
+
 [🧑‍💻 3. 사용하는 Visual Studio Code Extension](#사용하는-visual-studio-code-extension)
+
 [🛠️ 4. 개발환경 설정하기](#맥-개발-환경-기본-설정값필자)
 
 ***
