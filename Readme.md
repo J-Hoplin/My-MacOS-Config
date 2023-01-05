@@ -1,7 +1,21 @@
 My Mac OS Config
 ===
 ***
-## 현재 사용하고 있는 맥북 & 악세서리
+## 페이지 목차
+
+[💍 1. 사용중인 맥북, 악세서리](#현재-사용하고-있는-맥북--악세서리)
+
+[🛒 2. App Store에서 설치한 앱들](#app-store에서-설치하는-앱들)
+
+[💻 3. 사용하는 툴들](#사용하는-툴들)
+
+[🧑‍💻 4. 사용하는 Visual Studio Code Extension](#사용하는-visual-studio-code-extension)
+
+[🛠️ 5. 개발환경 설정하기](#맥-개발-환경-기본-설정값필자)
+
+[🔧 6. Utility Scripts](#utility-scripts)
+***
+## 1. 현재 사용하고 있는 맥북 & 악세서리
 
 - Macbook Pro 
     - CPU : Apple Silicon(M1)
@@ -18,21 +32,10 @@ My Mac OS Config
 
 - Hub
     - [Apple Multiport](https://www.apple.com/kr/shop/product/MUF82KH/A/usb-c-digital-av-multiport-어댑터?fnode=ed4f386342d0c23794045c10050074fb4f55e9eb2a9604d08c334cc0183600fabf93ed5b3c9069f6034eb62c9b80e11399579e2cc5ee18a0850e325689b74a98fa145234ab9693d6cfd8e54ff4758fb67bbcfd3e6936ca3a75667abb1c4fc7a8)
+
+[Back to top](#페이지-목차)
 ***
-## 페이지 목차
-
-[🛒 1. App Store에서 설치한 앱들](#app-store에서-설치하는-앱들)
-
-[💻 2. 사용하는 툴들](#사용하는-툴들)
-
-[🧑‍💻 3. 사용하는 Visual Studio Code Extension](#사용하는-visual-studio-code-extension)
-
-[🛠️ 4. 개발환경 설정하기](#맥-개발-환경-기본-설정값필자)
-
-[🔧 5. Utility Scripts](#utility-scripts)
-
-***
-## App Store에서 설치하는 앱들
+## 2. App Store에서 설치하는 앱들
 
 1. Magnet : 윈도우에서는 화면 분할을 지원하지만, 맥에서는 윈도우에서처럼의 화면 분할이 자유롭지 못합니다. Magnet은 화면분할을 윈도우처럼 할 수 있도록 도와줍니다.
 
@@ -44,7 +47,7 @@ My Mac OS Config
 
 5. XCode : 취미로 가끔 Swift 해볼때 씁니다
 ***
-## 사용하는 툴들
+## 3. 사용하는 툴들
 - Editor
     - Jetbrains
         - IntelliJ Ultimate
@@ -69,9 +72,11 @@ My Mac OS Config
 - ETC
     - Notion
     - Neovim
-***
 
-## 사용하는 Visual Studio Code Extension
+[Previous](#2-app-store에서-설치하는-앱들)
+[Back to top](#페이지-목차)
+***
+## 4. 사용하는 Visual Studio Code Extension
 
 - Docker
 - Kubernetes
@@ -86,8 +91,10 @@ My Mac OS Config
 - Python
 - Go
 
+[Previous](#3-사용하는-툴들)
+[Back to top](#페이지-목차)
 ***
-## 맥 개발 환경 기본 설정값(필자)
+## 5. 맥 개발 환경 기본 설정값(필자)
 
 ### 1,2,3,4의 과정은 [src/homebrew.sh](src/homebrew.sh)에 위치한 스크립트를 실행하여도 괜찮습니다
 
@@ -252,8 +259,11 @@ brew install iterm2
 - 폰트 : 22pt
 - Transparency : 32
 - Blur : 25
+
+[Previous](#4-사용하는-visual-studio-code-extension)
+[Back to top](#페이지-목차)
 ***
-## Utility Scripts
+## 6. Utility Scripts
 
 1. [homebrew.sh](src/homebrew.sh)
 
@@ -266,3 +276,7 @@ brew install iterm2
 3. [ignore_all_of_DS_Store.sh](src/ignore_all_of_DS_Store.sh)
 
 - 모든 경우에서 git이 .DS_Store파일들을 무시합니다.
+
+
+[Previous](#5-맥-개발-환경-기본-설정값필자)
+[Back to top](#페이지-목차)
