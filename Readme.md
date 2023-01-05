@@ -3,17 +3,17 @@ My Mac OS Config
 ***
 ## 페이지 목차
 
-[💍 1. 사용중인 맥북, 악세서리](#현재-사용하고-있는-맥북--악세서리)
+[💍 1. 사용중인 맥북, 악세서리](#1-현재-사용하고-있는-맥북--악세서리)
 
-[🛒 2. App Store에서 설치한 앱들](#app-store에서-설치하는-앱들)
+[🛒 2. App Store에서 설치한 앱들](#2-app-store에서-설치하는-앱들)
 
-[💻 3. 사용하는 툴들](#사용하는-툴들)
+[💻 3. 사용하는 툴들](#3-사용하는-툴들)
 
-[🧑‍💻 4. 사용하는 Visual Studio Code Extension](#사용하는-visual-studio-code-extension)
+[🧑‍💻 4. 사용하는 Visual Studio Code Extension](#4-사용하는-visual-studio-code-extension)
 
-[🛠️ 5. 개발환경 설정하기](#맥-개발-환경-기본-설정값필자)
+[🛠️ 5. 개발환경 설정하기](#5-맥-개발-환경-기본-설정값필자)
 
-[🔧 6. Utility Scripts](#utility-scripts)
+[🔧 6. Utility Scripts](#6-utility-scripts)
 ***
 ## 1. 현재 사용하고 있는 맥북 & 악세서리
 
