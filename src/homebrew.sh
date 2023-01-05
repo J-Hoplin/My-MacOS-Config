@@ -10,3 +10,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install iterm2
 # Install OhMyZsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Edit ZSH_THEME
+sed 's/robbyrussell/agnoster/g' ~/.zshrc > ~/.zshrc.new
+mv ~/.zshrc.new ~/.zshrc
