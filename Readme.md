@@ -29,7 +29,7 @@ My Mac OS Config
 
 [🛠️ 4. 개발환경 설정하기](#맥-개발-환경-기본-설정값필자)
 
-[🔧 5. ]
+[🔧 5. Utility Scripts](#utility-scripts)
 
 ***
 ## App Store에서 설치하는 앱들
@@ -255,14 +255,14 @@ brew install iterm2
 ***
 ## Utility Scripts
 
-1. homebrew.sh
+1. [homebrew.sh](src/homebrew.sh)
 
 - Homebrew, iterm2, ohmyzsh 설치까지 해주는 스크립트입니다.
 
-2. iterm2crackfix.sh
+2. [iterm2crackfix.sh](src/iterm2crackfix.sh)
 
 - iterm2에서 물음표가 나오면서 이미지 및 텍스트가 깨지는 경우 해결해줍니다
 
-3. ignore_all_of_DS_Store.sh
+3. [ignore_all_of_DS_Store.sh](src/ignore_all_of_DS_Store.sh)
 
 - 모든 경우에서 git이 .DS_Store파일들을 무시합니다.
