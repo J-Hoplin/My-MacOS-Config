@@ -3,6 +3,7 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension LeonardSSH.vscord
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension MS-CEINTL.vscode-language-pack-ko
+code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
 code --install-extension ms-python.isort
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance

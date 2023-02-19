@@ -3,24 +3,29 @@ My Mac OS Config
 ***
 ## 페이지 목차
 
-[💍 1. 사용중인 맥북, 악세서리](#1-현재-사용하고-있는-맥북--악세서리)
+[💍 1. 현재 사용하고 있는 맥 & 악세서리](#1-현재-사용하고-있는-맥--악세서리)
 
 [🛒 2. App Store에서 설치한 앱들](#2-app-store에서-설치하는-앱들)
 
 [💻 3. 사용하는 툴들](#3-사용하는-툴들)
 
-[🧑‍💻 4. 사용하는 Visual Studio Code Extension](#4-사용하는-visual-studio-code-extension)
+[🧑‍💻 4. 사용하는 Extension & Tools](#4-사용하는-extension--tools)
 
 [🛠️ 5. 개발환경 설정하기](#5-맥-개발-환경-기본-설정값필자)
 
 [🔧 6. Utility Scripts](#6-utility-scripts)
 ***
-## 1. 현재 사용하고 있는 맥북 & 악세서리
+## 1. 현재 사용하고 있는 맥 & 악세서리
 
 - Macbook Pro 
     - CPU : Apple Silicon(M1)
     - RAM : 16 GB
     - SSD : 512 GB
+
+- Mac Mini
+    - CPU : Apple Silicon(M1)
+    - RAM : 16 GB
+    - SSD : 256 GB
 
 - Keyboard
     - [Apple Magic Keyboard](https://www.apple.com/kr/shop/product/MUF82KH/A/usb-c-digital-av-multiport-어댑터?fnode=ed4f386342d0c23794045c10050074fb4f55e9eb2a9604d08c334cc0183600fabf93ed5b3c9069f6034eb62c9b80e11399579e2cc5ee18a0850e325689b74a98fa145234ab9693d6cfd8e54ff4758fb67bbcfd3e6936ca3a75667abb1c4fc7a8)
@@ -46,6 +51,8 @@ My Mac OS Config
 4. Good Note5 : iPad에서 필기한 내용을 보기위해 설치했습니다
 
 5. XCode : 취미로 가끔 Swift 해볼때 씁니다
+[Previous](#1-현재-사용하고-있는-맥--악세서리)
+[Back to top](#페이지-목차)
 ***
 ## 3. 사용하는 툴들
 - Editor
@@ -76,37 +83,34 @@ My Mac OS Config
 [Previous](#2-app-store에서-설치하는-앱들)
 [Back to top](#페이지-목차)
 ***
-## 4. 사용하는 Visual Studio Code Extension
+## 4. 사용하는 Extension & Tools
 
-- Docker
-- Kubernetes
-- YAML
-- JavaScript (ES6) code snippets
-- Korean Language Pack for Visual Studio Code
-- Live Server
-- Markdown Preview Enhanced
-- Material Icon Theme
-- Nunjucks
-- Babel JavaScript
-- Python
-- Go
-- Open API
-- ESLint
-- Extension Pack for Java
+### Visual Studio Code extension 일괄 설치하기
+
+```bash
+bash VS-Code-Config/extension.sh
+```
+
+### Brew extension 설치파일
+
+**HomeBrew 설치 이후에 가능합니다**
+
+```bash
+brew bundle --file=./Brewfile/Brewfile
+```
 
 [Previous](#3-사용하는-툴들)
 [Back to top](#페이지-목차)
 ***
 ## 5. 맥 개발 환경 기본 설정값(필자)
 
-### 1,2,3,4의 과정은 [src/homebrew.sh](src/homebrew.sh)에 위치한 스크립트를 실행하여도 괜찮습니다
+### 1,2,3,4의 과정은 [src/homebrew.sh](src/homebrew.sh)에 위치한 스크립트를 실행하여도 괜찮습니다. 단 초반 설치시 설치과정에서 2번의 상호작용이 요구됩니다.
 
 1. Homebrew 설치하기
 
 - Homebrew란 Mac OS에서의 패키지 관리자입니다. 우분투에서 `apt`, CentOS 혹은 RHEL 에서 `yum` 이 있듯이 말이죠. 
 
 ```bash
-# Install M1 mac homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/$(whoami)/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$(whoami)/.zprofile
@@ -126,7 +130,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 - Oh-My-ZSH는 ZSH에 추가적인 기능을 붙일 수 있는 기능을 하게끔 해주는 플러그인입니다. 설정에 따라 터미널 가독성을 높일 수 있고, 그에따른 생산성 또한 높아집니다.
 
 ```bash
-# Install OhMyZsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
@@ -135,13 +138,12 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 - Iterm2 또한 터미널 애플리케이션중 하나입니다. 기본 터미널보다 더 다양한 플러그인, Key Binding을 지원하며 무엇보다 기본 터미널에서는 지원하지 않는 tty분할 기능도 지원합니다
 
 ```bash
-# Install iTerm2
 brew install iterm2
 ```
 
 - 위 명령어를 실행하면 Launchpad에 Iterm2 애플리케이션이 생성되었을겁니다.
 
-4. zshrc 설정변경하기, **여기서부터는 Iterm2로**
+4. zshrc 설정변경하기, 
 
 - 아래와 같이 설정해 주기위해서는 추가적인 설정이 필요합니다
 
@@ -159,7 +161,7 @@ brew install iterm2
 
     ![img](img/3.png)
 
-5. Font 설치
+5. Font 설치 **"여기서부터는 Iterm2로"**
 
 - 폰트는 기본 폰트를 사용해도 좋습니다. 다만, 가독성을 위해 다른 폰트를 사용하기도 합니다. 저같은 경우, 세가지를 선호합니다.
 
@@ -237,7 +239,7 @@ brew install iterm2
 - 기본 설정은 Iterm2의 상단에 위치하지만 하단에 위치하는 법도 있습니다. `Appearance - General - Status bar location`에서 Bottom으로 변경해주면 됩니다.
 
 9. 터미널 라인 유저명 짧게 변경하기
-기본적으로 터미널에서 유저 이름을 아래와 같이 표현합니다. `(사용자 이름)@(Mac~~머시기)` 솔직히 많이 깁니다. 이거를 변경하기 위해서는 다시 ZSH 설정파일을 열어줍니다. 그 후 아래에 이 코드를 복붙해줍니다. `{여기는 보이고자 하는 이름을 입력해 주세요}` 부분을 지우고, 터미널에서 보이고 싶은 유저 이름으로 변경해줍니다. 그리고 `command + S`로 저장하고, Iterm2를 재실행합니다. 그러면 다음 스텝에 있는 사진처럼 스스로 설정한 이름으로 변경됩니다.
+기본적으로 터미널에서 유저 이름을 아래와 같이 표현합니다. `(사용자 이름)@(Mac~~머시기)` 솔직히 많이 깁니다. 이거를 변경하기 위해서는 다시 ZSH 설정파일을 열어줍니다`open ~/.zshrc`). 그 후 아래에 이 코드를 복붙해줍니다. `{여기는 보이고자 하는 이름을 입력해 주세요}` 부분을 지우고, 터미널에서 보이고 싶은 유저 이름으로 변경해줍니다. 그리고 `command + S`로 저장하고, Iterm2를 재실행합니다. 그러면 다음 스텝에 있는 사진처럼 스스로 설정한 이름으로 변경됩니다.
 
     ```bash
     prompt_context() { 
@@ -263,7 +265,7 @@ brew install iterm2
 - Transparency : 32
 - Blur : 25
 
-[Previous](#4-사용하는-visual-studio-code-extension)
+[Previous](#4-사용하는-extension--tools)
 [Back to top](#페이지-목차)
 ***
 ## 6. Utility Scripts
