@@ -85,13 +85,13 @@ My Mac OS Config
 ***
 ## 4. 사용하는 Extension & Tools
 
-### Visual Studio Code extension 일괄 설치하기
+### [Visual Studio Code extension](./VS-Code-Config/) 일괄 설치하기
 
 ```bash
 bash VS-Code-Config/extension.sh
 ```
 
-### Brew extension 설치파일
+### [Brew extensions](./Brewfile/) 일괄설치
 
 **HomeBrew 설치 이후에 가능합니다**
 
