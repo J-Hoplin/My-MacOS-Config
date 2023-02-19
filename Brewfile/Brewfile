@@ -1,0 +1,8 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "convmv"
+brew "node"
+brew "wget"
+cask "iterm2"
+cask "tableplus"
