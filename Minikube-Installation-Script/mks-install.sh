@@ -7,8 +7,8 @@ then
     version=$1
 fi
 
-curl -Lo minikube https://github.com/kubernetes/minikube/releases/download/v$version/minikube-darwin-arm64 \
-  && chmod +x minikube
+
+brew install minikube
 
 minikube start --driver=docker
 
