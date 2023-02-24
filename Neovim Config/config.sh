@@ -42,6 +42,7 @@ call plug#end()
 set encoding=utf-8
 
 " Keymap
+nmap <F5> :qa!
 nmap <F6> gg=G
 nmap <F7> :e
 nmap <F8> :TagbarToggle
