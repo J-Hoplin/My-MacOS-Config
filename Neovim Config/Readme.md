@@ -18,6 +18,7 @@ After all of Coc installation finished like photo below, press `<F4> + Enter` to
 - C/C++
 - Python
 - Node.js
+- TypeScript
 
 ## Shortcuts
 
