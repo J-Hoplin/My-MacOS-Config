@@ -48,6 +48,7 @@ nmap <F6> :edit
 nmap <F7> :e
 nmap <F8> :TagbarToggle
 nmap <F9> :NERDTreeToggle
+nmap <F10> :terminal
 
 let g:rainbow_active = 1
 EOF
