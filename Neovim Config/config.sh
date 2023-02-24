@@ -50,9 +50,6 @@ EOF
 
 nvim -c ':PlugInstall' -c ':CocConfig'  -c ':q!' -c ':q!'
 
-cd ~/.vim/plugged/coc.nvim/
-yarn install
-
 cat >> ~/.config/nvim/coc-settings.json<<EOF
 {
   "languageserver": {
@@ -143,3 +140,6 @@ cat >> ~/.config/nvim/coc-settings.json<<EOF
 EOF
 
 nvim -c ':CocInstall coc-python' -c ':CocInstall coc-clangd' -c ':CocInstall coc-pyright' -c ':CocInstall coc-tabnine' -c ':CocInstall coc-json' -c ':q!' -c ':-q!' -c ':q!' -c ':-q!'
+
+cd ~/.vim/plugged/coc.nvim/
+yarn install
