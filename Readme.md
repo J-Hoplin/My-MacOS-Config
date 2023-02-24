@@ -15,7 +15,7 @@ My Mac OS Config
 
 [🔧 6. Utility Scripts](#6-utility-scripts)
 
-[🔧 7. Neovim Configuration]()
+[🔧 7. Neovim Configuration](#7-neovim-configuration)
 ***
 ## 1. 현재 사용하고 있는 맥 & 악세서리
 
