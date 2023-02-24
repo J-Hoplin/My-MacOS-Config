@@ -14,6 +14,8 @@ My Mac OS Config
 [🛠️ 5. 개발환경 설정하기](#5-맥-개발-환경-기본-설정값필자)
 
 [🔧 6. Utility Scripts](#6-utility-scripts)
+
+[🔧 7. Neovim Configuration]()
 ***
 ## 1. 현재 사용하고 있는 맥 & 악세서리
 
@@ -284,4 +286,17 @@ brew install iterm2
 
 
 [Previous](#5-맥-개발-환경-기본-설정값필자)
+
+[Back to top](#페이지-목차)
+***
+## 7. Neovim Configuration
+
+Neovim configuration script
+
+```
+bash "Neovim Config/config.sh"
+```
+
+[Previous](#6-utility-scripts)
+
 [Back to top](#페이지-목차)
