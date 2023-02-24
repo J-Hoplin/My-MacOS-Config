@@ -26,7 +26,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'preservim/tagbar'
 
 Plug 'vim-airline/vim-airline'
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim'
 
 " Rainbow Bracket
 Plug 'frazrepo/vim-rainbow'
@@ -45,6 +45,9 @@ let g:rainbow_active = 1
 EOF
 
 nvim -c ':PlugInstall' -c ':CocConfig'  -c ':q!' -c ':q!'
+
+cd ~/.vim/plugged/coc.nvim/
+yarn install
 
 cat >> ~/.config/nvim/coc-settings.json<<EOF
 {

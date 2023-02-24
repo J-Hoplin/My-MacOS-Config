@@ -52,8 +52,10 @@ My Mac OS Config
 
 4. Good Note5 : iPad에서 필기한 내용을 보기위해 설치했습니다
 
-5. XCode : 취미로 가끔 Swift 해볼때 씁니다
+5. XCode : 취미로 가끔 Swift 해볼때 사용합니다
+
 [Previous](#1-현재-사용하고-있는-맥--악세서리)
+
 [Back to top](#페이지-목차)
 ***
 ## 3. 사용하는 툴들
@@ -83,6 +85,7 @@ My Mac OS Config
     - Neovim
 
 [Previous](#2-app-store에서-설치하는-앱들)
+
 [Back to top](#페이지-목차)
 ***
 ## 4. 사용하는 Extension & Tools
@@ -102,6 +105,7 @@ brew bundle --file=./Brewfile/Brewfile
 ```
 
 [Previous](#3-사용하는-툴들)
+
 [Back to top](#페이지-목차)
 ***
 ## 5. 맥 개발 환경 기본 설정값(필자)
@@ -268,6 +272,7 @@ brew install iterm2
 - Blur : 25
 
 [Previous](#4-사용하는-extension--tools)
+
 [Back to top](#페이지-목차)
 ***
 ## 6. Utility Scripts
