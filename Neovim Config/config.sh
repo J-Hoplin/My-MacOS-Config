@@ -42,8 +42,9 @@ call plug#end()
 set encoding=utf-8
 
 " Keymap
-nmap <F5> :qa!
-nmap <F6> gg=G
+nmap <F4> :qa!
+nmap <F5> gg=G
+nmap <F6> :edit
 nmap <F7> :e
 nmap <F8> :TagbarToggle
 nmap <F9> :NERDTreeToggle
@@ -145,4 +146,4 @@ EOF
 cd ~/.vim/plugged/coc.nvim/
 yarn install
 
-nvim -c ':CocInstall coc-pyright' -c ':CocInstall coc-python' -c ':CocInstall coc-clangd' -c ':CocInstall coc-tabnine' -c ':CocInstall coc-json'
+nvim -c ':CocInstall coc-pyright coc-tsserver coc-python coc-clangd coc-tabnine coc-json'
