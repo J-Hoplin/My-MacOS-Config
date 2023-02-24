@@ -28,6 +28,7 @@ After all of Coc installation finished like photo below, press `<F4> + Enter` to
 - `<F8>` : `:TagbarToggle`, Open tagbar
 - `<F9>` : `:NERDTreeToggle`, Open nerdtreetoogle
 - `<F10>` : `:terminal`, Execute command in terminal
+- `Control + y` : Autocomplete Suggestion
 
 ## Plugins
 
