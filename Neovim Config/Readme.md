@@ -13,7 +13,7 @@ After all of Coc installation finished like photo below, press `<F4> + Enter` to
 ![](../img/19.png)
 ![](../img/20.png)
 
-## Supported languages
+## Intelli Sense Supported languages
 
 - C/C++
 - Python
