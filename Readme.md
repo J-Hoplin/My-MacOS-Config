@@ -46,6 +46,8 @@ My Mac OS Config
 
 1. Magnet : 윈도우에서는 화면 분할을 지원하지만, 맥에서는 윈도우에서처럼의 화면 분할이 자유롭지 못합니다. Magnet은 화면분할을 윈도우처럼 할 수 있도록 도와줍니다.
 
+    - Magnet 대신 무료앱인 [Rectangle](https://rectangleapp.com)도 있습니다(웹에서 다운로드).
+
 2. Run Cat : 상단바에 CPU 점유율에 따라 뛰는 고양이가 생깁니다
 
 3. Hidden Bar : 상단바에 정보가 너무 많은 경우, 일부 숨겨주는 앱입니다
