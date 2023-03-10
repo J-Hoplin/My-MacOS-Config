@@ -106,6 +106,8 @@ bash VS-Code-Config/extension.sh
 brew bundle --file=./Brewfile/Brewfile
 ```
 
+- 주의 : 일괄 설치에 포함된 java는 intel 버전의 jdk가 설치됩니다(Adopt Open JDK). 만약 m1 네이티브 jdk를 사용하고 싶으시다면 이 [링크](https://www.azul.com/downloads/?package=jdk) 에서 네이티브 jdk를 다운로드해주세요.
+
 [Previous](#3-사용하는-툴들)
 
 [Back to top](#페이지-목차)

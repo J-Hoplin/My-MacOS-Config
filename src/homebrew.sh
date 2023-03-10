@@ -6,6 +6,9 @@ echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/$(whoami)/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$(whoami)/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Install Rosetta2
+sudo softwareupdate --install-rosetta
+
 # Install iTerm2
 brew install iterm2
 # Install OhMyZsh
